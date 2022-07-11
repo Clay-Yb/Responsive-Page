@@ -1,0 +1,47 @@
+:root {
+	--color-primary: #6c63ff;
+	--color-success: #00bf8e;
+	--color-warning: #f7c94b;
+	--color-danger: #f75842;
+	--color-danger-varient: rgba(247, 88, 66, 0.4);
+	--color-white: #fff;
+	--color-light: rgba(255, 255, 255, 0.7);
+	--color-black: #000;
+	--color-bg: #1f2641;
+	--color-bg1: #2e3267;
+	--color-bg2: #424890;
+
+	--container-width-lg: 80%;
+	--container-width-md: 90%;
+	--container-width-sm: 94%;
+
+	--biggest-font-size: 2.25rem;
+	--h1-font-size: 1.5rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+	--normal-font-size: 0.983rem;
+	--small-font-size: 0.813rem;
+	--smaller-font-size: 0.75rem;
+
+	--ff-main: "Poppins";
+}
+
+.course_container {
+	gap: 1.5rem;
+	padding: 5rem 0;
+}
+.popular_card_desc {
+	padding: 0 10%;
+}
+
+@media (min-width: 620px) {
+	.course_container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 1000px) {
+	.course_container {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2.5rem;
+	}
+}
